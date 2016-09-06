@@ -1,0 +1,181 @@
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	
+}
+ul {
+    margin: 0;
+	padding: 0;
+}
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    padding: 0;
+    max-width: 1920px;
+    background-color: #e9ece5;
+}
+h2 {
+    text-align: center;
+}
+#home {
+    margin: 10px 10px;
+    float: left;
+    width: 300px;
+    color: #696969;
+    text-align: center;
+    text-shadow: 0 0 25px #9fa8a3;
+    -webkit-text-shadow: 0 0 25px #9fa8a3;
+    -moz-text-shadow: 0 0 25px #9fa8a3;
+}
+.navigation {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-end;
+	background-color: #e9ece5;
+}
+.navigation li {
+    display: inline-block;
+	width: 100px;
+}
+.navigation a {
+    display: block;
+	color: #696969;
+	line-height: 4em;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+.navigation li a:hover {
+	color: #fff;
+    background-color: #c5d5cb;
+}
+.container {
+   margin: 0 auto;
+   width: 100%;
+   height: 100%;
+   background-color: #e9ece5;
+}
+.content {
+    margin: 0 auto;
+    padding: 20px 20px 20px 30px;
+    text-align: center;
+}
+#portfolio {
+    margin: 0 auto; 
+    width: 100%;
+}
+.img-show {
+    margin: 20px 20px;
+    box-sizing: border-box;
+}
+.img-portfolio {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    border: 5px white solid;
+}
+.img-show :first-child {
+    width: 350px;
+    height: 350px;
+}
+#contact {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.send {
+    position: relative;
+   /*display: inline-block;*/
+    clear: both;
+}
+.send input {
+	width: 300px;
+	height: 20px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #9fa8a3;
+	background: #fff;
+	border-radius: 8px;
+	outline: none;
+	box-shadow: 0 0 25px #9fa8a3;
+    -webkit-box-shadow: 0 0 25px #9fa8a3;
+    -moz-box-shadow: 0 0 25px #9fa8a3;
+}
+.send input:hover{
+    background-color: #f3f6f4;
+}
+.send textarea {
+    margin-top: 7px;
+	overflow: auto;
+	resize: none;
+	width: 300px;
+	height: 100px;
+	background: #fff;
+	border: 1px solid #9fa8a3;
+	border-radius: 8px;
+	padding: 8px 0 8px 10px;
+	outline: none;
+	box-shadow: 0 0 25px #9fa8a3;
+    -webkit-box-shadow: 0 0 25px #9fa8a3;
+    -moz-box-shadow: 0 0 25px #9fa8a3;
+}
+.send textarea:hover {
+    background-color: #f3f6f4;
+}
+#btn-send {
+    width: 100px;
+    border: 1px solid #9fa8a3;
+    color:  #696969;
+    font-weight: bold;
+    text-shadow: 0 0 25px #9fa8a3;
+	border-radius: 8px;
+	padding: 8px 8px;
+	outline: none;
+    box-shadow: 0 0 25px #9fa8a3;
+    -webkit-box-shadow: 0 0 25px #9fa8a3;
+    -moz-box-shadow: 0 0 25px #9fa8a3;
+}
+#btn-send:hover {
+    background-color: #c5d5cb;
+    color: #fff;
+
+}
+.mylink {
+    position: relative;
+    /*display: inline-block;*/
+    clear: both;
+    line-height: 3em;
+}
+.mylink span {
+    margin: 7px 5px;
+    
+}
+.mylink span a i {
+    color: #b2a8a5;
+    -webkit-transition: width 1s, height 1s, color 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, color 1s, transform 1s;
+}
+.mylink span a i:hover {
+    color: #969693;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
