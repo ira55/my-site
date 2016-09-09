@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 	
 	$('.lightbox_img').click(function(e) {
 
@@ -16,7 +16,7 @@ $(document).ready(function() {
  		else { 
  			var lightbox = 
  			'<div id="lightbox">' +
-				'<i class="fa fa-times fa-2x" aria-hidden="true"></i>' +
+				'<i class="fa fa-times fa-3x" aria-hidden="true"></i>' +
 				'<div id="close">' + 
 					'<img src="' + image_src +'" />' +
 				'</div>' +	
@@ -26,20 +26,12 @@ $(document).ready(function() {
  		}
 		
 		});
-		
-		
-	// 	$('#lightbox').click(function() {
-	// 	    $(this).hide();
-	// 	});
-	// 	$('#lightbox').click(function() {
-	// 	$('#lightbox').hide();
-	// 	});
 	
-	
-	
-	 $('#lightbox').on('click', function(){
-        $('#lightbox').hide();
-	});
+	$('body').on('click', '#lightbox', function() {
+
+  $('#lightbox').hide();
+
+    });
  });
  
   
@@ -47,24 +39,3 @@ $(document).ready(function() {
   $('#btn-send').click(sendForm);  
 });
 
-function sendForm(e) {
-    e.preventDefault();
-    $.ajax ({
-        url:"https://formspree.io/ira.demkovych@gmail.com", 
-        method:"POST",
-        data: {
-            name:$('#name').val(),
-            email:$('#email').val(),
-            message:$('#text').val()
-        },
-        dataType:"json",
-        success:function(){
-            $('#thanks').html('Thank you!');
-        }
-    });
-};
-
-         $(document).ready(function( $ ) {
-            $(".navigation").mmenu();
-         });
-     

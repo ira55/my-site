@@ -1,7 +1,7 @@
 @media screen and (max-width: 750px) {
   #slideshow {
   margin: 0 auto;
-  max-width: 750px;
+  
   box-sizing: border-box;
 }
 .main_slide {
@@ -14,10 +14,5 @@
 .navigation li a {
 	display: block;
 	margin-right: 10px;
-}
-#main-img {
-  margin: 0 auto;
-  position: relative;
-  width: 100%;
 }
 }
