@@ -1,13 +1,15 @@
 .slideshow {
 	width: 100%;
-	height: 700px;
+	height: 900px;
 	position: relative;
-	margin: 0 auto;
-    background: linear-gradient(#e9ece5, #9fa8a3, #e9ece5);
+	margin: 50px auto 0;
+    background-color: #768b8d;
 }
 #main_slide {
     margin: 0 auto;
+    padding-top: 100px;
     max-width: 1000px;
+    height: 800px;
 }
 #main-img img {
     margin: 0 auto;
@@ -20,112 +22,170 @@
     -webkit-justify-content: center;
     justify-content: center;
     width: 100%;
+    height: 90%;
 }
 #slide_page1 {
     margin: 0 auto;
     max-width: 1000px;
 }
 #slide_imgshow1 {
+    position: relative;
     max-width: 1000px;
-    
-} 
-.slide_img1 img {
+    height: 600px;
+}
+#slide_img1 img {
     position: absolute;
-    width: 500px;
-    height: 590px;
-    top: 0;
-    left: 11%;
+    width: 50%;
+    height: 90%;
+    top: 20%;
+    left: 0;
     box-sizing: border-box;
     border: 7px white solid;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
-.slide_img2 img {
+#slide_img1 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+#slide_img2 img {
     position: absolute;
-    width: 40%;
-    height: 290px;
-    float: right;
-    top: 0;
+    width: 49%;
+    height: 50%;
+    top: 20%;
     left: 50%;
     box-sizing: border-box;
     border: 7px white solid;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
-.slide_img3 img {
+#slide_img2 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+#slide_img3 img {
     position: absolute;
-    width: 40%;
-    height: 295px;
-    float: right;
-    top: 42%;
+    width: 49%;
+    height: 50%;
+    top: 60%;
     left: 50%;
     box-sizing: border-box;
     border: 7px white solid;
-} 
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+#slide_img3 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
 #slide_page2 {
     margin: 0 auto;
     max-width: 1000px;
 }
+
 #slide_imgshow2 {
+    position: relative;
     max-width: 1000px;
     height: 600px;
 } 
 .slide_img4 img {
     position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 10%;
-    left: 85%;
+    width: 35%;
+    height: 50%;
+    top: 20%;
+    left: 100%;
     box-sizing: border-box;
     border: 10px white solid;
     -webkit-transform: translate3d(-50%,-50%,0) translate3d(-60%,40%,0) rotate(10deg);
 	transform: translate3d(-50%,-50%,0) translate3d(-60%,40%,0) rotate(10deg);
-    
-    
+	-moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.slide_img4 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .slide_img5 img {
     position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 70%;
-    left: 10%;
+    width: 35%;
+    height: 50%;
+    top: 115%;
+    left: 0%;
     box-sizing: border-box;
     border: 10px white solid;
     -webkit-transform: translate3d(-50%,-50%,0) translate3d(60%,-40%,0) rotate(10deg);
 	transform: translate3d(-50%,-50%,0) translate3d(60%,-40%,0) rotate(10deg);
+	-moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.slide_img5 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .slide_img6 img {
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 40%;
-    width: 300px;
-    height: 300px;
+    width: 35%;
+    height: 50%;
     box-sizing: border-box;
     border: 10px white solid;
     -webkit-transform: translate3d(-50%,-50%,0) translate3d(-60%,-40%,0) rotate(-16deg);
 	transform: translate3d(-50%,-50%,0) translate3d(-60%,-40%,0) rotate(-16deg);
+	-moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.slide_img6 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .slide_img7 img {
     position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 40%;
-    left: 50%;
+    width: 35%;
+    height: 50%;
+    top: 70%;
+    left: 60%;
     box-sizing: border-box;
     border: 10px white solid;
     -webkit-transform: translate3d(-50%,-50%,0) translate3d(60%,40%,0) rotate(-15deg);
 	transform: translate3d(-50%,-50%,0) translate3d(60%,40%,0) rotate(-15deg);
-} 
+	-moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.slide_img7 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
 .slide_img8 img {
     position: absolute;
-    width: 450px;
-    height: 400px;
-    top: 10%;
-    left: 30%;
+    width: 60%;
+    height: 80%;
+    top: 30%;
+    left: 20%;
     box-sizing: border-box;
     border: 10px white solid;
-    
-    
-    
-    
-    
-    
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.slide_img8 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 #slide_page3 {
     margin: 0 auto;
@@ -133,76 +193,102 @@
 
 }
 .slide_imgshow3 {
+    position: relative;
     max-width: 1000px;
     height: 600px;
 }
 .slide_img9 img {
     position: absolute;
-    top: 15%;
+    top: 35%;
 	left: 15%;
-	width: 30%;
-	height: 50%;
+	width: 50%;
+	height: 40%;
     box-sizing: border-box;
     border: 10px white solid;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
-.slide_img9 img {
-    position: absolute;
-    top: 15%;
-	left: 15%;
-	width: 30%;
-	height: 50%;
-    box-sizing: border-box;
-    border: 10px white solid;
+.slide_img9 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .slide_img10 img {
     position: absolute;
-    top: 40%;
-	left: 11%;
-	width: 80%;
-	height: 60%;
+    top: 15%;
+	left: 25%;
+	width: 25%;
+	height: 35%;
     box-sizing: border-box;
     border: 10px white solid;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.slide_img10 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .slide_img11 img {
     position: absolute;
-    top: 10%;
-	left: 40%;
-	width: 40%;
-	height: 60%;
+    top: 17%;
+	left: 55%;
+	width: 30%;
+	height: 50%;
     box-sizing: border-box;
     border: 10px white solid;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.slide_img11 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .slide_img12 img {
     position: absolute;
-    top: 50%;
-	left: 70%;
+    top: 47%;
+	left: 45%;
 	width: 22.5%;
-	height: 42.5%;
+	height: 30%;
     box-sizing: border-box;
     border: 10px white solid;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
-.slide_click {
+.slide_img12 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+#prev {
     position: absolute;
-    bottom: 20%;
-    height: 50px;
-    right: 130px;
-    cursor: pointer;
-    padding: 16px;
-    background-color: inherit;
-
-}
-.slide_click a {
-    border: none;
-    outline: none;
-    
-}
-.slide_click a i {
-    margin-left: 10px;
-    color: #696969;
-    font-size: 30px;
-    font-weight: bold;
-}
-.slide_click  a i:hover {
+    left: 0;
+    top: 50%;
     color: #fff;
+    font-size: 30px;
+    text-decoration: none;
 }
-
+#next {
+    position: absolute;
+    float: right;
+    right: 0;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+#prev:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #c5d5cb;
+}
+#next:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #c5d5cb;
+}

@@ -1,21 +1,18 @@
+
 var slideIndex = 1;
-showSlides(slideIndex);
+showDivs(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusDivs(n) {
+  showDivs(slideIndex += n);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showDivs(n) {
   var i;
-  var slides = document.getElementsByClassName("wow lightSpeedIn");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+  var x = document.getElementsByClassName("lightSpeedIn");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
   }
-  slides[slideIndex-1].style.display = "block";
+  x[slideIndex-1].style.display = "block";
 }

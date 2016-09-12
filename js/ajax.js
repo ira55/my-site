@@ -11,5 +11,7 @@ function sendForm(e) {
     });
     $('#formSend').trigger('reset');
 };
-
+$(function() {
+  $('#btn-send').click(sendForm);  
+});
 

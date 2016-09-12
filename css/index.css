@@ -1,4 +1,4 @@
-body {
+html body {
     margin: 0 auto;
     max-width: 1920px;
     height: 100%;
@@ -6,62 +6,36 @@ body {
 	font-size: 100%;
 	
 }
-ul {
-    margin: 0;
-	padding: 0;
-}
-ul li {
-    list-style-type: none;
-}
-a {
-    text-decoration: none;
-}
-.header {
-    padding: 0;
-    max-width: 1920px;
-    background-color: #e9ece5;
-}
-h1 {
-    font-weight: 700;
-}
 h2 {
     text-align: center;
     font-weight: bold;
 }
-#home {
-    margin: 10px 10px;
+.navbar-brand h2 {
+    margin: 0 0 60px;
     float: left;
     width: 300px;
-    color: #696969;
+    color: #fff;
     text-align: center;
-    text-shadow: 0 0 25px #9fa8a3;
-    -webkit-text-shadow: 0 0 25px #9fa8a3;
-    -moz-text-shadow: 0 0 25px #9fa8a3;
 }
-.navigation {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: flex-end;
-	background-color: #e9ece5;
+.header {
+    margin: 0 auto;
+    max-width: 1920px;
 }
-.navigation li {
-    display: inline-block;
-	width: 100px;
+.navbar-header {
+    background-color: #5c7274;
 }
-.navigation a {
-    display: block;
-	color: #696969;
-	line-height: 4em;
-	font-weight: bold;
-	font-size: 18px;
-	text-align: center;
+#example-navbar-collapse {
+    margin: 0 auto;
+    max-width: 1920px;
+    background-color: #5c7274;
 }
-.navigation li a:hover {
-    text-decoration: none;
+#example-navbar-collapse li a {
+    margin: 0 7px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+#example-navbar-collapse li a:hover {
 	color: #fff;
     background-color: #c5d5cb;
 }
@@ -73,54 +47,62 @@ h2 {
    background-color: #e9ece5;
 }
 .content {
-    margin: 20 auto;
+    margin: 20px auto;
     padding: 20px 20px 20px 30px;
     font-size: 15px;;
     text-align: center;
 }
+#about {
+    margin-bottom: 100px;
+    padding: 15% 7%;
+    font-size: 25px;
+    line-height: 2em;
+}
 #portfolio {
-    margin: 0 auto; 
-    width: 100%;
+    margin: 50px auto;
+    padding: 15% 0;
+    max-width: 1920px;
 }
 .img-show {
     margin: 0 auto;
+    width: 100%;
 }
 .img-portfolio {
-    margin: 0 auto;
+    padding: 10px 10px;
     display: inline-block;
-    
 }
 .img-portfolio img {
-    margin: 20px 10px;
-    width: 350px;
-    height: 350px;
+    margin: 20px 0;
+    width: 370px;
+    height: 370px;
     border: 5px white solid;
-    -moz-transition: all 1s ease-out;
+    -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -webkit-transition: all 1s ease;
 }
 .img-portfolio img:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
+    -webkit-transform: scaleY(1.1);
+    -moz-transform: scaleY(1.1);
+    -o-transform: scaleY(1.1);
 }
-
 #contact {
-    margin: 0 auto;
+    margin: 100px auto 30px;
     width: 100%;
 }
-
 .mycontact {
-    display: -webkit-box;
+    margin: 0 auto;
+    padding: 6% 2%;
+   /*display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row wrap;
     -webkit-justify-content: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 .send {
+    margin: 0 50px;
     width: 300px;
     clear: both;
 }
@@ -177,26 +159,34 @@ h2 {
     background-color: #c5d5cb;
     color: #fff;
     font-size: 15px;
-
+}
+#footer {
+    background-color: #5c7274;
 }
 .mylink {
-    margin: 27px 30px;
+    margin: 0 auto;
     font-size: 15px;
     font-weight: bold;
-    clear: both;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 .mylink span {
     margin: 7px 5px;
-    
 }
 .mylink span a i {
-    color: #5a898c;
+    color: #fff;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -webkit-transition: all 1s ease;
 }
 .mylink span a i:hover {
-    color: #5a898c;
+    color: #c5d5cb;
     opacity: 0.7;
     -webkit-transform: scale(1.3);
     -moz-transform: scale(1.3);

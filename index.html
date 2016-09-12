@@ -3,70 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <title>Iryna Demkovych</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/index.css" type="text/css" />
     <link rel="stylesheet" href="css/slideshow.css" type="text/css" />
     <link rel="stylesheet" href="css/ligthbox.css" type="text/css" />
-    <link rel="stylesheet" media="(max-width:750px)" href="css/media.css" type="text/css" />
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" media="(max-width:767px)" href="css/media.css" type="text/css" />
     <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
 </head>
 <body>
     <header class="header">
-        <h1 id="home">Iryna Demkovych</h1>
-    <nav class="navigation">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    </header>
-    <main class="container">
+    <nav class = "navbar navbar-default navbar-fixed-top" role = "navigation">
+   
+   <div class = "navbar-header">
+      <button type = "button" class = "navbar-toggle" 
+         data-toggle = "collapse" data-target = "#example-navbar-collapse">
+         <span class = "sr-only" id="home">Iryna Demkovych</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
+		
+      <a class = "navbar-brand" href = "#"><h2>Iryna Demkovych</h2></a>
+   </div>
+   
+   <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+	
+      <ul class = "nav navbar-nav navbar-right" >
+            <li><a href="#home"class="smooth">Home</a></li>
+            <li><a href="#about"class="smooth">About</a></li>
+            <li><a href="#portfolio"class="smooth">Portfolio</a></li>
+            <li><a href="#contact"class="smooth">Contact</a></li>
+      </ul>
+   </div>
+</nav>
+</header>
+    <main class="container" id="home">
        <section class="slideshow">
-            <div id="main_slide"class="wow lightSpeedIn">
+            <div id="main_slide"class="lightSpeedIn">
                 <div id="main-img">
                     <img src="img/mainfoto.jpg" alt="mainfoto">
                 </div>
-            </div>
-           <div id="slide_page1">
-                <div id="slide_imgshow1"class="wow lightSpeedIn">
-                    <div class="slide_img1">
-                        <img src="img/img_fjords.jpg" alt="foto1"></div>
-                    <div class="slide_img2">
-                        <img src="img/img_fjords.jpg" alt="foto2"></div>
-                    <div class="slide_img3">
-                        <img src="img/img_fjords.jpg" alt="foto3"></div>
+           </div>
+           <div id="slide_page1"class="lightSpeedIn">
+                <div id="slide_imgshow1">
+                    <div id="slide_img1" class="slidein" >
+                        <img src="img/1.jpg" alt="foto1"></div>
+                    <div id="slide_img2" class="slidein">
+                        <img src="img/2.jpg" alt="foto2"></div>
+                    <div id="slide_img3"class="slidein">
+                        <img src="img/3.jpg" alt="foto3"></div>
                 </div>
             </div>
-           <div id="slide_page2">
-                <div id="slide_imgshow2"class="wow lightSpeedIn">
+           <div id="slide_page2"class="lightSpeedIn">
+                <div id="slide_imgshow2">
                     <div class="slide_img4">
-                        <img src="" alt="foto4"></div>
+                        <img src="img/4.jpg" alt="foto4"></div>
                     <div class="slide_img5">
-                        <img src="" alt="foto5"></div>
+                        <img src="img/5.jpg" alt="foto5"></div>
                     <div class="slide_img6">
-                        <img src="" alt="foto6"></div>
+                        <img src="img/6.jpg" alt="foto6"></div>
                     <div class="slide_img7">
-                        <img src="" alt="foto7"></div>
+                        <img src="img/7.jpg" alt="foto7"></div>
                     <div class="slide_img8">
-                        <img src="" alt="foto8"></div>
+                        <img src="img/8.jpg" alt="foto8"></div>
                 </div>
             </div>
-            <div id="slide_page3">
-                <div id="slide_imgshow3"class="wow lightSpeedIn">
+            <div id="slide_page3"class="lightSpeedIn">
+                <div id="slide_imgshow3">
                     <div class="slide_img9">
-                        <img src="" alt="foto9"></div>
+                        <img src="img/9.jpg" alt="foto9"></div>
                     <div class="slide_img10">
-                        <img src="" alt="foto10"></div>
+                        <img src="img/10.jpg" alt="foto10"></div>
                     <div class="slide_img11">
-                        <img src="" alt="foto11"></div>
+                        <img src="img/11.jpg" alt="foto11"></div>
                     <div class="slide_img12">
-                        <img src="" alt="foto12"></div>
+                        <img src="img/12.jpg" alt="foto12"></div>
                 </div>
             </div>
            <!--<div class="slide_page5">
@@ -97,18 +112,17 @@
                         <img src="" alt="foto12"></div>
                 </div>
             </div>-->
-               <nav class="slide_click">
-                   <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-long-arrow-left fa-2x" aria-hidden="true"></i></a>
-                   <a class="next" onclick="plusSlides(1)"><i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"></i></a>
-               </nav>
+            <a class="w3-btn-floating" onclick="plusDivs(-1)" id="prev">&#10094;</a>
+            <a class="w3-btn-floating" onclick="plusDivs(+1)" id="next">&#10095;</a>
        </section>
        <section class="content">
-           <h2 id="about">About me</h2>
-           <p>Disciplined, responsible, initiative. I have aptitude to the well-grounded acceptance of independent decisions. 
-           The viewpoint can convincing reason. I possess the high level of the culture of behavior and communication with people. 
-           Systematicly and fruitfully work over the increase of the level of professional knowledge, umin and skills. Good  communication skills, team player.
-			</p>
-			<p>SKILLS:  HTML, CSS, JavaScript, SQL – general  knowledge</p>
+           <div id="about"><h2>About me</h2>
+               <p>Disciplined, responsible, initiative. I have aptitude to the well-grounded acceptance of independent decisions. 
+               The viewpoint can convincing reason. I possess the high level of the culture of behavior and communication with people. 
+               Systematicly and fruitfully work over the increase of the level of professional knowledge, umin and skills. Good  communication skills, team player.
+    			</p>
+    			<p>SKILLS:  HTML, CSS, JavaScript, SQL – general  knowledge</p>
+           </div>
            <article id="portfolio">
             <h2>Portfolio</h2>
             <div class="img-show">
@@ -135,21 +149,21 @@
                             <button id="btn-send">Send</button>
                           </form>
                        </div>
-                       <div class="mylink">
-                           <span>Phone: +38(097)720-27-86</span><br>
-                           <span><a href="https://www.facebook.com/profile.php?id=100001619411026"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></span>
-                           <span><a href="https://vk.com/id11544503"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a></span>
-                           <span><a href="https://plus.google.com/u/0/103082882774162266255/posts"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></span>
-                           <span><a href="https://github.com/ira55"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></span>
-                       </div>
                     </div>
            </article>
         </section>
      </main>
-   <footer></footer>
+   <footer id="footer">
+       <div class="mylink">
+            <span>Phone: +38(097)720-27-86</span><br>
+            <span><a href="https://www.facebook.com/profile.php?id=100001619411026"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></span>
+            <span><a href="https://vk.com/id11544503"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a></span>
+            <span><a href="https://plus.google.com/u/0/103082882774162266255/posts"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></span>
+            <span><a href="https://github.com/ira55"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></span>
+        </div>
+   </footer>
   <script  src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>   
-  <script src="js/wow.min.js"></script>
   <script type="text/javascript" src="js/slideshow.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
   <script type="text/javascript" src="js/ajax.js"></script>
