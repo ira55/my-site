@@ -11,9 +11,8 @@ h2 {
     font-weight: bold;
 }
 .navbar-brand h2 {
-    margin: 0 0 60px;
-    float: left;
-    width: 300px;
+    margin: 0;
+    max-width: 300px;
     color: #fff;
     text-align: center;
 }
@@ -59,9 +58,10 @@ h2 {
     line-height: 2em;
 }
 #portfolio {
-    margin: 50px auto;
+    margin-bottom: 50px;
     padding: 15% 0;
     max-width: 1920px;
+    height: 100%;
 }
 .img-show {
     margin: 0 auto;
@@ -86,11 +86,12 @@ h2 {
     -o-transform: scaleY(1.1);
 }
 #contact {
-    margin: 30px 0 0;
+    margin-top: 20px;
+    padding-top: 5%;
     width: 100%;
 }
 .mycontact {
-    margin-top: 50px;
+    margin: 50px 0;
     display: flex;
 }
 .send {
