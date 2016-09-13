@@ -46,9 +46,9 @@
     -webkit-transition: all 1s ease;
 }
 #slide_img1 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 #slide_img2 img {
     position: absolute;
@@ -63,9 +63,9 @@
     -webkit-transition: all 1s ease;
 }
 #slide_img2 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 #slide_img3 img {
     position: absolute;
@@ -80,9 +80,9 @@
     -webkit-transition: all 1s ease;
 }
 #slide_img3 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 #slide_page2 {
     margin: 0 auto;
@@ -109,9 +109,9 @@
     -webkit-transition: all 1s ease;
 }
 .slide_img4 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 .slide_img5 img {
     position: absolute;
@@ -128,9 +128,9 @@
     -webkit-transition: all 1s ease;
 }
 .slide_img5 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 .slide_img6 img {
     position: absolute;
@@ -147,9 +147,9 @@
     -webkit-transition: all 1s ease;
 }
 .slide_img6 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 .slide_img7 img {
     position: absolute;
@@ -166,9 +166,9 @@
     -webkit-transition: all 1s ease;
 }
 .slide_img7 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 .slide_img8 img {
     position: absolute;
@@ -183,9 +183,9 @@
     -webkit-transition: all 1s ease;
 }
 .slide_img8 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 #slide_page3 {
     margin: 0 auto;
@@ -200,8 +200,8 @@
 .slide_img9 img {
     position: absolute;
     top: 35%;
-	left: 15%;
-	width: 50%;
+	left: 7%;
+	width: 67%;
 	height: 40%;
     box-sizing: border-box;
     border: 10px white solid;
@@ -210,9 +210,9 @@
     -webkit-transition: all 1s ease;
 }
 .slide_img9 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 .slide_img10 img {
     position: absolute;
@@ -227,15 +227,15 @@
     -webkit-transition: all 1s ease;
 }
 .slide_img10 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 .slide_img11 img {
     position: absolute;
     top: 17%;
-	left: 55%;
-	width: 30%;
+	left: 60%;
+	width: 37%;
 	height: 50%;
     box-sizing: border-box;
     border: 10px white solid;
@@ -244,14 +244,14 @@
     -webkit-transition: all 1s ease;
 }
 .slide_img11 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 .slide_img12 img {
     position: absolute;
     top: 47%;
-	left: 45%;
+	left: 40%;
 	width: 22.5%;
 	height: 30%;
     box-sizing: border-box;
@@ -261,9 +261,9 @@
     -webkit-transition: all 1s ease;
 }
 .slide_img12 img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 #prev {
     position: absolute;

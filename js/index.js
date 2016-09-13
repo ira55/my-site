@@ -42,10 +42,16 @@ $(function() {
             event.preventDefault();
             $('html, body').stop().animate({
                 scrollTop: target.offset().top
-            }, 2000);
+            }, 2100);
         }
     });
     
 }); 
  
-
+function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 49.8140455, lng: 23.9867778},
+            zoom: 8
+        });
+      }
